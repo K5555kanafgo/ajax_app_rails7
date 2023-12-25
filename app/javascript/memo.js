@@ -9,5 +9,5 @@ function post (){
     XHR.send(formData);
   });
 };
-   
+
 window.addEventListener('turbo:load', post);
